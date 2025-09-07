@@ -11,7 +11,6 @@ import Notfound from "./pages/Notfound";
 function App() {
   return (
     <>
-      <div>Hello</div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/new" element={<New />} />
